@@ -1,0 +1,28 @@
+.account__container {
+    font-family: 'Roboto Condensed';
+    margin: 5rem;
+    max-width: 20rem;
+    .account__h1 {
+        font-size: 2rem;
+    }
+
+    .account__name {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .account__email {
+        font-size: 1.5rem;
+    }
+
+    .account__btn {
+        font-family: 'Roboto Condensed';
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 0.5rem 3rem;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(140, 255, 0);
+    }
+}

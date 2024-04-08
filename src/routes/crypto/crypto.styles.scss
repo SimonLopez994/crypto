@@ -1,0 +1,65 @@
+.crypto__container {
+
+    flex: 0 0 auto;
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+
+    .crypto__header {
+
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .crypto__container--object {
+        border-bottom: 1px solid grey;
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+    
+
+
+.crypto__img{
+    width: 7%;
+    margin-bottom: 1rem;
+}
+
+        .crypto__index {}
+
+      
+
+
+        .crypto__h5 {
+            width: 15%;
+            @media screen and (max-width:800px){
+                width: 22%;
+            }
+        }
+
+        .crypto__p {
+            width: 22%;
+            @media screen and (max-width:800px){
+                width: 38%;
+            }
+        }
+    }
+
+    .red {
+     
+        color: red;
+    }
+
+    .green {
+   
+        color: green;
+    }
+}
+.blur{
+    filter: blur(5px) brightness(0.3);
+    opacity: 0.5; 
+}

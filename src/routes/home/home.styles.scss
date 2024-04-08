@@ -1,0 +1,106 @@
+.home__container {
+    font-family: 'Roboto Condensed';
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+
+@media screen and (max-width:1500px){
+    width: 60%;
+}
+@media screen and (max-width:1240px){
+    width: 100%;
+    align-items: center;
+    display: inline;
+}
+
+
+
+
+
+
+    .home__content {
+        width: 50%;
+     
+        margin: 2rem 5rem 0 0 ;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: center;
+        @media screen and (max-width:1240px){
+            width: 100%;
+            align-items: center;
+        }
+        @media screen and (max-width:760px){
+            align-items: flex-start;
+            margin-left: 5rem;
+          
+        }
+
+
+        .home__h1 {
+            font-family: 'Roboto Condensed';
+            font-size: 8rem;
+            color: rgb(0, 0, 0);
+            opacity: 0;
+            transform: translateX(-700px);
+
+            @media screen and (max-width:1500px) {
+                font-size: 5rem;
+            }
+        }
+
+        .home__btn--container {
+            @media screen and (max-width:1500px){
+                display: flex;
+                flex-direction: column;
+            }
+            .home__btn {
+                text-decoration: none;
+                margin: 0 1rem 1rem 0;
+                font-size: 1.2rem;
+
+                font-weight: 800;
+                letter-spacing: 0.2rem;
+                color: rgb(109, 109, 109);
+                padding: 1rem 2rem;
+                background-color: rgb(140, 255, 0);
+                border-radius: 25px;
+                box-shadow: 0 5px 10px rgb(0, 0, 0);
+                transition: 0.3s ease-in;
+            }
+
+            .home__btn:hover {
+
+                cursor: pointer;
+            }
+        }
+
+
+
+    }
+
+    .home__container--img {
+       
+        width: 50%;
+
+        .home__img {
+            margin: 0;
+           
+            width: 50rem;
+            transform: translateY(-300px);
+           
+
+            @media screen and (max-width:1500px){
+                width: 40rem;
+            }
+            @media screen and (max-width:1240px){
+                display: none;
+            }
+        }
+    }
+
+
+}
